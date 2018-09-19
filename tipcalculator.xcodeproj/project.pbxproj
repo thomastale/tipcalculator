@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E95E0307215068670014887E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E0306215068670014887E /* AppDelegate.swift */; };
 		E95E0309215068670014887E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E0308215068670014887E /* ViewController.swift */; };
-		E95E030C215068670014887E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E030A215068670014887E /* Main.storyboard */; };
+		E95E030C215068670014887E /*  .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E030A215068670014887E /*  .storyboard */; };
 		E95E030E215068680014887E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95E030D215068680014887E /* Assets.xcassets */; };
 		E95E0311215068680014887E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E030F215068680014887E /* LaunchScreen.storyboard */; };
+		E95E031821519BD60014887E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E0306215068670014887E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E95E0303215068670014887E /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95E0306215068670014887E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95E0308215068670014887E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E95E030B215068670014887E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95E030B215068670014887E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ .storyboard"; sourceTree = "<group>"; };
 		E95E030D215068680014887E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95E0310215068680014887E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95E0312215068680014887E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			children = (
 				E95E0306215068670014887E /* AppDelegate.swift */,
 				E95E0308215068670014887E /* ViewController.swift */,
-				E95E030A215068670014887E /* Main.storyboard */,
+				E95E030A215068670014887E /*  .storyboard */,
 				E95E030D215068680014887E /* Assets.xcassets */,
 				E95E030F215068680014887E /* LaunchScreen.storyboard */,
 				E95E0312215068680014887E /* Info.plist */,
@@ -124,7 +124,7 @@
 			files = (
 				E95E0311215068680014887E /* LaunchScreen.storyboard in Resources */,
 				E95E030E215068680014887E /* Assets.xcassets in Resources */,
-				E95E030C215068670014887E /* Main.storyboard in Resources */,
+				E95E030C215068670014887E /*  .storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,20 +135,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95E031821519BD60014887E /* AppDelegate.swift in Sources */,
 				E95E0309215068670014887E /* ViewController.swift in Sources */,
-				E95E0307215068670014887E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E95E030A215068670014887E /* Main.storyboard */ = {
+		E95E030A215068670014887E /*  .storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E95E030B215068670014887E /* Base */,
 			);
-			name = Main.storyboard;
+			name = " .storyboard";
 			sourceTree = "<group>";
 		};
 		E95E030F215068680014887E /* LaunchScreen.storyboard */ = {
